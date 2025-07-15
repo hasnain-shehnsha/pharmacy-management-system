@@ -111,6 +111,3 @@ A robust web-based **Pharmacy Management System** built with Laravel. This syste
 
 ---
 
-## 📄 License
-
-MIT License © [Your Name](https://github.com/YOUR-USERNAME)
