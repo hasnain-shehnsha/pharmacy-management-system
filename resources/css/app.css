@@ -1,0 +1,121 @@
+body {
+    background: #f4f8fb;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-container, .dashboard-container {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 400px;
+}
+.auth-form h2 {
+    margin-bottom: 1.5rem;
+    color: #2d3a4b;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 1.2rem;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #2d3a4b;
+    font-weight: 500;
+}
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #dbe2ea;
+    border-radius: 8px;
+    background: #f7fafc;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+.form-group input:focus, .form-group select:focus {
+    border-color: #4f8cff;
+}
+.btn-primary {
+    width: 100%;
+    padding: 0.8rem;
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn-primary:hover {
+    background: #2563eb;
+}
+.form-link {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+.form-link a {
+    color: #4f8cff;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.stats-cards {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+.stat-card {
+    background: #f7fafc;
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    text-align: center;
+    min-width: 120px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.stat-title {
+    color: #6b7280;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+.stat-value {
+    color: #2563eb;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.stat-card.low-stock .stat-value {
+    color: #e53e3e;
+}
+.links-cards {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.link-card {
+    background: #fff;
+    border: 1px solid #dbe2ea;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    color: #2d3a4b;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    transition: background 0.2s, border 0.2s, color 0.2s;
+}
+.link-card:hover {
+    background: #4f8cff;
+    color: #fff;
+    border-color: #4f8cff;
+}
